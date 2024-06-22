@@ -1,0 +1,47 @@
+body {
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #d4d4d4;
+}
+
+.formArea {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formArea form {
+  width: inherit;
+}
+
+input[type='number'] {
+  display: block;
+  margin-bottom: 16px;
+}
+
+input[type='number'],
+input[type='submit'] {
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+  transition: all 100ms linear;
+  margin-bottom: 16px;
+}
+
+input[type='submit']:hover {
+  background: #272727;
+  color: #FFF;
+}
